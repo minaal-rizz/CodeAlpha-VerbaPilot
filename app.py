@@ -215,7 +215,7 @@ with tab_objs[-1]:
 **VerbaPilot** – Streamlit app for the CodeAlpha AI internship.
 
 **Stack**
-- Azure Translator (Free F0)
+- Azure Translator 
 - Streamlit
 - Python
 
