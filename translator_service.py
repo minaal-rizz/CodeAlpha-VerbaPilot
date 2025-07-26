@@ -217,9 +217,9 @@ def supported_languages() -> list[dict]:
     )
 
 # ---------- Idioms & Slang ----------
-IDIOM_FILES = ["idioms.json", "idiom.json"]
-SLANG_FILES = ["slangs.json", "slang.json"]
-PHRASE_FILES = ["phrases_en.json", "phrases.json"]
+IDIOM_FILES = ["idioms.json"]
+SLANG_FILES = ["slang.json"]
+PHRASE_FILES = [ "phrases.json"]
 
 def _load_first_existing(file_list):
     for name in file_list:
