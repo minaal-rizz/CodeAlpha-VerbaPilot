@@ -12,6 +12,10 @@ from translator_service import (
     challenge_pool
 )
 
+from translator_service import _load_phrase_db
+_load_phrase_db.cache_clear()
+
+
 # ---------- THEME ----------
 st.set_page_config(page_title="VerbaPilot Translator", page_icon="🌐", layout="wide")
 st.markdown("""
