@@ -105,7 +105,7 @@ def _load_phrase_db() -> dict:
         return out
 
     idioms_raw = _safe_load_json(BASE_DIR / "idioms.json")
-    slangs_raw = _safe_load_json(BASE_DIR / "slangs.json")
+    slangs_raw = _safe_load_json(BASE_DIR / "slang.json")
     return {"idioms": normalize(idioms_raw), "slangs": normalize(slangs_raw)}
 
 def explain_idioms_slang(text: str) -> list[dict]:
